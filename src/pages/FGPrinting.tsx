@@ -1,4 +1,4 @@
-import { RefreshCcw, X } from 'lucide-preact';
+import { RefreshCcw } from 'lucide-preact';
 // pages/FGPrinting.tsx
 export const FGPrinting = () => (
   <div className="bg-white rounded-3xl shadow-xl border border-slate-200 overflow-hidden flex flex-col h-full animate-in fade-in zoom-in duration-300">

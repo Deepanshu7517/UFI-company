@@ -52,15 +52,7 @@ export const ReportPage = () => {
     setReportType('FG Report');
     alert("Filters Reset");
   };
-const handleReportTypeChange = (type: string) => {
-    setReportType(type);
-    // Dynamic JS: Auto-show Machine ID column if "Trace Off" is selected
-    if (type === 'Trace Off') {
-      setVisibleColumns(prev => ({ ...prev, machineId: true }));
-    } else {
-      setVisibleColumns(prev => ({ ...prev, machineId: false }));
-    }
-  };
+
   return (
     <div className="h-full w-full flex flex-col gap-4 animate-in fade-in slide-in-from-bottom-4 duration-500 font-sans">
       
