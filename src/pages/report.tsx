@@ -99,9 +99,9 @@ export const ReportPage = () => {
                     name="reportType" 
                     checked={reportType === type}
                     onChange={() => setReportType(type)}
-                    className="w-3.5 h-3.5 text-blue-600 border-slate-300 focus:ring-blue-500" 
+                    className="w-2.5 h-3.5 text-blue-600 border-slate-300 focus:ring-blue-500" 
                   />
-                  <span className="max-md:text-[10px] font-bold text-slate-600 uppercase transition-colors">{type}</span>
+                  <span className="max-lg:text-[10px] font-bold text-slate-600 uppercase transition-colors">{type}</span>
                 </label>
               ))}
             </div>
